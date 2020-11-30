@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid black;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+  background-color: #312f2f;
+  border-radius: 5px;
+  padding-top: 40px;
+}
+
+p.title {
+  color: gray;
+
+  margin-top: -10px;
+}
+
+p.titleValue {
+  background-color: gray;
+  border-radius: 4px;
+  width: 90%;
+  margin-top: -10px;
+}
