@@ -5,7 +5,6 @@ $(document).ready(function() {
       data() +
       "&iso=RUS&region_province=Sverdlovsk%20Oblast",
     success: function(data) {
-      console.log(data.data[0]);
       $(".newConf").text(data.data[0].confirmed_diff);
       $(".сonf").text(data.data[0].confirmed);
       $(".active").text(data.data[0].active);
